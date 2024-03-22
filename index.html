@@ -4,9 +4,13 @@
 <title>Introduction - Juliana Gonzalez</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add Font Awesome stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <style>
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {
@@ -14,32 +18,25 @@ body {
   margin: 0;
 }
 
-.banner {
-    /* The image used */
-    padding: 70px;
-    background-image:
-    url(https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/360_F_587507871_i5NRhii2ZysP8vK4K8stq8t8nUa0AcN2.jpg?raw=true);
-    background position: top center;
-  }
-
+/*.banner {
+    padding: 40px;
+    text-align: center;
+  	background: #aa8cd4;
+}
 
 /* Style the header */
 .header {
   padding: 60px;
   text-align: center;
   background: #aa8cd4;
-  color: white;
+  color: #2e2e33;
 }
 
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 40px;
-}
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #413652;
+  background-color: #2e2e33;
 }
 
 /* Style the navigation bar links */
@@ -50,6 +47,7 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Right-aligned link */
@@ -59,41 +57,69 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #dddd;
   color: black;
+
 }
 
 /* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+  justify-content: center; /* Center horizontally */
 }
 
 /* Main column */
 .main {   
   flex: 70%;
-  background-color: white;
+  background-color: #2e2e33;
   padding: 20px;
+  margin-top: 20px; /* Add some space from the top */
+  text-align: center; /* Center align text */
 }
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
 
 .lineSpace {
   line-height: 1.5;
+}
+
+/* Center the image */
+img.inline {
+  display: block;
+  margin: 0 auto; /* Auto margin for centering */
+}
+
+/* Style the icon links */
+.icon-links {
+  margin-top: 20px; /* Add some space above the links */
+}
+
+.icon-links a {
+  display: inline-block;
+  margin: 10px; /* Adjust spacing */
+  font-size: 24px;
+  color: white; /* Set icon color */
+  transition: transform 0.3s ease-in-out; /* Add transition for icons */
+}
+
+/* Scale icons on hover */
+.icon-links a:hover {
+  transform: scale(1.3); /* Scale up icons by 20% on hover */
+}
+
+/* Style the horizontal line */
+hr {
+  width: 60%; /* Adjust the width of the line */
+  margin: 20px auto; /* Center the line */
+  border: 1px solid #ccc; /* Set border color and thickness */
+}
+
+.about-me {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.75;
+  /* Add padding of 20 pixels to all sides */
 }
 
 </style>
@@ -104,46 +130,35 @@ body {
   
 </div>
 
-
 <div class="navbar">
   <a href="https://jgonzalez0406.github.io">Intro</a>
   <a href="https://jgonzalez0406.github.io/index2.html">Resume</a>
-
 </div>
 
 <div class="row">
-  <div class="side">
-    <img alt="hi" class="inline" src="https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/docs/assets/iPu_rA1W%20(2).png?raw=true" width="200" height="200">
-    <h3>Juliana Gonzalez</h3>
-    <p class ='lineSpace'>CS Sophomore at University of Notre Dame</p>
-    <h4>Contact Information</h4>
-    <a href='mailto: jgonza38@nd.edu'>Email</a>
-      <br> </br>
-    <a href='https://www.linkedin.com/in/juliana-gonzalez04/'>LinkedIn</a>
-      <br> </br>
-    <a href='https://github.com/jgonzalez0406'>Github</a>
-    
-
-  </div>
   <div class="main">
+    <img alt="profile picture" class="inline" src="https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/docs/assets/iPu_rA1W%20(2).png?raw=true" width="190" height="190">
+    <h3>Juliana Gonzalez</h3>
+    <p class ='lineSpace'>Computer Science Sophomore at the University of Notre Dame</p>
+    <div class="icon-links">
+      <!-- Font Awesome icons for GitHub, email, and LinkedIn -->
+      <a href='mailto: jgonza38@nd.edu'><i class="fas fa-envelope"></i></a>
+      <a href='https://www.linkedin.com/in/juliana-gonzalez04/'><i class="fab fa-linkedin"></i></a>
+      <a href='https://github.com/jgonzalez0406'><i class="fab fa-github"></i></a>
+    </div>
+    <!-- Horizontal line -->
+    <hr>
     <h3>About Me</h3>
-    <p class='lineSpace'>I'm a sophomore student at the <a href ='https://www.nd.edu/'>University of Notre Dame</a> 
-    majoring in Computer Science. I am interested in Cybersecurity in addition to Artificial Intelligence. 
-    I have coding experience in Python, MATLAB, HTML, and Java.</p>
+    <p class="about-me">Hi, my name is Juliana Gonzalez. I'm a sophomore student at the <a href ='https://www.nd.edu/'>University of Notre Dame</a> 
+    majoring in Computer Science. I have lived in Indiana my whole life (specifically Merrillville, IN) so it was only natural for me to attend a university here! I am fascinated by computers and what goes into creating software. I have special interests in artificial intelligence and cybersecurity. I hope to expand my horizons and delve into all that is Computer Science. Through my courses and work experience, I have coding experience in Python, Java, C, and MATLAB.</p>
+    <hr>
+    <h3>Experience</h3>
+    <hr>
+    <h3>Courses</h3>
+    
     <br>
-
-
+  </div>
 </div>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
