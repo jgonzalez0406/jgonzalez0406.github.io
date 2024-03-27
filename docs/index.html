@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <title>Introduction - Juliana Gonzalez</title>
@@ -122,6 +123,42 @@ hr {
   /* Add padding of 20 pixels to all sides */
 }
 
+.download-button {
+  background-color: #white; /* Green background */
+  border: none;
+  color: black; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Change color on hover */
+.download-button:hover {
+  background-color: #dddd;
+
+}
+
+.course-list {
+  text-align: center; /* Center the text */
+  list-style-position: inside; /* Position the bullet points inside the list items */
+}
+
+.course-list li {
+  text-align: left; /* Align the text of list items to the left */
+}
+
+.course-box { /* Dark background color */
+  padding: 10px; /* Padding inside the box */
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 20px; /* Add space between sections */
+  text-align: left; /* Align text inside the box to the left */
+}
+
 </style>
 </head>
 <body>
@@ -130,9 +167,9 @@ hr {
   
 </div>
 
+
 <div class="navbar">
   <a href="https://jgonzalez0406.github.io">Intro</a>
-  <a href="https://jgonzalez0406.github.io/index2.html">Resume</a>
 </div>
 
 <div class="row">
@@ -146,13 +183,36 @@ hr {
       <a href='https://www.linkedin.com/in/juliana-gonzalez04/'><i class="fab fa-linkedin"></i></a>
       <a href='https://github.com/jgonzalez0406'><i class="fab fa-github"></i></a>
     </div>
+    
+<!-- Button to download resume -->
+<div class="resume-button">
+  <a href="link_to_your_resume.pdf" download><button class="download-button">Download Resume</button></a>
+</div>
+
+    
+    
     <!-- Horizontal line -->
     <hr>
     <h3>About Me</h3>
     <p class="about-me">Hi, my name is Juliana Gonzalez. I'm a sophomore student at the <a href ='https://www.nd.edu/'>University of Notre Dame</a> 
-    majoring in Computer Science. I have lived in Indiana my whole life (specifically Merrillville, IN) so it was only natural for me to attend a university here! I am fascinated by computers and what goes into creating software. I have special interests in artificial intelligence and cybersecurity. I hope to expand my horizons and delve into all that is Computer Science. Through my courses and work experience, I have coding experience in Python, Java, C, and MATLAB.</p>
+    majoring in Computer Science. I have lived in Indiana my whole life (specifically Merrillville, IN) so it was only natural for me to attend a university here! I am fascinated by computers and what goes into creating software. I have special interests in artificial intelligence and cybersecurity. I hope to expand my horizons and delve into all that is Computer Science.</p>
     <hr>
-    <h3>Experience</h3>
+	<h3>Experience</h3>
+    <div class="course-box">
+      <h4>Courses Taken</h4>
+      <ul class="course-list">
+        <li>Fundamentals of Computing</li>
+        <li>Discrete Mathematics</li>
+        <li>Data Structures</li>
+        <li>Systems Programming</li>
+        <li>Linear Algebra</li>
+        <!-- Add more courses as needed -->
+      </ul>
+    
+    
+    
+    </p>
+    
     <hr>
     <h3>Courses</h3>
     
