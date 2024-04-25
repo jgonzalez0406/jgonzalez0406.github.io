@@ -1,224 +1,140 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-<title>Introduction - Juliana Gonzalez</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Add Font Awesome stylesheet -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-* {
-  box-sizing: border-box;
-  color: white;
-}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+  body {
+    background-color: #d1c4e9; /* Use the hexadecimal value for the desired light purple color */
+  }
 
-/*.banner {
-    padding: 40px;
-    text-align: center;
-  	background: #aa8cd4;
-}
-
-/* Style the header */
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #aa8cd4;
-  color: #2e2e33;
-}
-
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #2e2e33;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #dddd;
-  color: black;
-
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center horizontally */
-}
-
-/* Main column */
-.main {   
-  flex: 70%;
-  background-color: #2e2e33;
-  padding: 20px;
-  margin-top: 20px; /* Add some space from the top */
-  text-align: center; /* Center align text */
-}
-
-.lineSpace {
-  line-height: 1.5;
-}
-
-/* Center the image */
-img.inline {
-  display: block;
-  margin: 0 auto; /* Auto margin for centering */
-}
-
-/* Style the icon links */
-.icon-links {
-  margin-top: 20px; /* Add some space above the links */
-}
-
-.icon-links a {
-  display: inline-block;
-  margin: 10px; /* Adjust spacing */
-  font-size: 24px;
-  color: white; /* Set icon color */
-  transition: transform 0.3s ease-in-out; /* Add transition for icons */
-}
-
-/* Scale icons on hover */
-.icon-links a:hover {
-  transform: scale(1.3); /* Scale up icons by 20% on hover */
-}
-
-/* Style the horizontal line */
-hr {
-  width: 60%; /* Adjust the width of the line */
-  margin: 20px auto; /* Center the line */
-  border: 1px solid #ccc; /* Set border color and thickness */
-}
-
-.about-me {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 1.75;
-  /* Add padding of 20 pixels to all sides */
-}
-
-.download-button {
-  background-color: #white; /* Green background */
-  border: none;
-  color: black; /* White text */
-  padding: 15px 32px; /* Padding */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px; /* Rounded corners */
-}
-
-/* Change color on hover */
-.download-button:hover {
-  background-color: #dddd;
-
-}
-
-.course-list {
-  text-align: center; /* Center the text */
-  list-style-position: inside; /* Position the bullet points inside the list items */
-}
-
-.course-list li {
-  text-align: left; /* Align the text of list items to the left */
-}
-
-.course-box { /* Dark background color */
-  padding: 10px; /* Padding inside the box */
-  border-radius: 8px; /* Rounded corners */
-  margin-top: 20px; /* Add space between sections */
-  text-align: left; /* Align text inside the box to the left */
-}
 
 </style>
 </head>
 <body>
 
-<div class="banner">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
   
-</div>
+    <!-- Left Column -->
+    <div class="w3-third" style="max-width: 400px;">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-center">
+          <img src="https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/docs/assets/iPu_rA1W%20(2).png?raw=true" style="width:50%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+        <div class="w3-container w3-center">
+          <h3>Juliana Gonzalez</h3>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>Computer Science Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>University of Notre Dame</p>
+          <p><a href="mailto:jgonza38@nd.edu"><i class="fa fa-envelope fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>jgonza38@nd.edu</a></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>(219)306-7897</p>
+          <p><a href="https://github.com/jgonzalez0406"><i class="fa fa-github fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>Personal Github</a></p>
+          <p><a href="https://www.linkedin.com/in/juliana-gonzalez04/"><i class="fa fa-linkedin fa-fw w3-margin-right w3-xlarge w3-text-purple"></i>Linkedin</a></p>
+
+ 
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-purple"></i>Programming Languages</b></p>
+          <p><i class="fa fa-code fa-fw w3-margin-right w3-text-purple"></i>Python</p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+          </div>
+          <p><i class="fa fa-code fa-fw w3-margin-right w3-text-purple"></i>Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+          </div>
+          <p><i class="fa fa-code fa-fw w3-margin-right w3-text-purple"></i>C</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+  
+          </div>
+          <p><i class="fa fa-code fa-fw w3-margin-right w3-text-purple"></i>MATLAB</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+          </div>
+          <br>
+          <div class="w3-light-grey w3-round-xlarge">
+
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Notre Dame Summer Enrichment Intern</b></h5>
+          <h6 class="w3-text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 - July 2023&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker fa-fw w3-margin-right"></i>Notre Dame, IN</h6>
 
 
-<div class="navbar">
-  <a href="https://jgonzalez0406.github.io">Intro</a>
-</div>
+          <p>▪ Collaborated with a professor and graduate students on a research project focused on using LLM (Large Language
+Models) to complete tasks regarding Source Code Summarization.</p>
+		  <p>▪ Developed a Python program that takes Java files as input, recognizes function names, corresponding code, and
+comments written by a user, and has an AI model give a brief description of the function’s objective.</p>
+		  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪<a href="https://github.com/jgonzalez0406/Java-Processor"><i class="fa fa-github fa-fw w3-large w3-text-purple"></i>Project Github</a></p>
+		  <p>▪ Presented the project findings and research data at a research poster symposium.</p>
+          <img src="https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/docs/assets/poster_self.png?raw=true" style="width:50%" alt="Research Poster Up Close">
+          
+          
+          
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Crew Carwash Sales Associate</b></h5>
+          <h6 class="w3-text-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2021 - April 2024&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker fa-fw w3-margin-right"></i>Merrillville, IN</h6>
+          <p>▪ Created connections with customers by advertising which wash would best suit their needs while also educating them
+about current promotions to improve overall company numbers and customer satisfaction</p>
+		  <p>▪ Safely loaded 1000+ vehicles a day into the wash while also using quick-thinking and conflict resolution to solve
+problems that arose with functionality and customer complaints.</p>
+		  <p>▪ Skills: Customer Service, Teamwork, Flexibility, and WIT (Whatever It Takes)</p>
+          <hr>
+        </div>
+        
+      </div>
 
-<div class="row">
-  <div class="main">
-    <img alt="profile picture" class="inline" src="https://github.com/jgonzalez0406/jgonzalez0406.github.io/blob/main/docs/assets/iPu_rA1W%20(2).png?raw=true" width="190" height="190">
-    <h3>Juliana Gonzalez</h3>
-    <p class ='lineSpace'>Computer Science Sophomore at the University of Notre Dame</p>
-    <div class="icon-links">
-      <!-- Font Awesome icons for GitHub, email, and LinkedIn -->
-      <a href='mailto: jgonza38@nd.edu'><i class="fas fa-envelope"></i></a>
-      <a href='https://www.linkedin.com/in/juliana-gonzalez04/'><i class="fab fa-linkedin"></i></a>
-      <a href='https://github.com/jgonzalez0406'><i class="fab fa-github"></i></a>
+        <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Relevant Courses</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Data Structures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Systems Programming</h5>
+          <h5 class="w3-opacity"><i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Fundamentals of Computing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Logic Design</h5>
+          <h5 class="w3-opacity"><i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Discrete Mathematics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-purple"></i>Linear Algebra</h5>
+
+          <hr>
+        </div>
+        
+        
+
+        </div>
+
+
+    <!-- End Right Column -->
     </div>
     
-<!-- Button to download resume -->
-<div class="resume-button">
-  <a href="link_to_your_resume.pdf" download><button class="download-button">Download Resume</button></a>
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
 </div>
 
-    
-    
-    <!-- Horizontal line -->
-    <hr>
-    <h3>About Me</h3>
-    <p class="about-me">Hi, my name is Juliana Gonzalez. I'm a sophomore student at the <a href ='https://www.nd.edu/'>University of Notre Dame</a> 
-    majoring in Computer Science. I have lived in Indiana my whole life (specifically Merrillville, IN) so it was only natural for me to attend a university here! I am fascinated by computers and what goes into creating software. I have special interests in artificial intelligence and cybersecurity. I hope to expand my horizons and delve into all that is Computer Science.</p>
-    <hr>
-	<h3>Experience</h3>
-    <div class="course-box">
-      <h4>Courses Taken</h4>
-      <ul class="course-list">
-        <li>Fundamentals of Computing</li>
-        <li>Discrete Mathematics</li>
-        <li>Data Structures</li>
-        <li>Systems Programming</li>
-        <li>Linear Algebra</li>
-        <!-- Add more courses as needed -->
-      </ul>
-    
-    
-    
-    </p>
-    
-    <hr>
-    <h3>Courses</h3>
-    
-    <br>
-  </div>
-</div>
+
 
 </body>
 </html>
